@@ -1,0 +1,501 @@
+Apple 
+Samsung
+Xiaomi
+OPPO
+Vivo
+Realme
+
+iPhone 15 Pro Max (2023)
+iPhone 14 Pro Max (2022)
+iPhone 13 Pro Max (2021)
+iPhone 12 Pro Max (2020)
+iPhone 11 Pro Max (2019)
+iPhone X (2017)
+iPhone 13 Pro (2021)
+iPhone 14 Pro (2022)
+iPhone 6S (2015)
+iPhone 7 Plus (2016)
+
+
+
+Samsung Galaxy S23 Ultra (2023)
+Samsung Galaxy S22 Ultra (2022)
+Samsung Galaxy Note 20 Ultra (2020)
+Samsung Galaxy S21 Ultra (2021)
+Samsung Galaxy Z Fold 5 (2023)
+Samsung Galaxy Z Flip 5 (2023)
+Samsung Galaxy S20 Ultra (2020)
+Samsung Galaxy Note 10+ (2019)
+Samsung Galaxy S10+ (2019)
+Samsung Galaxy S9+ (2018)
+
+
+Xiaomi 13 Pro (2023)
+Xiaomi Mi 11 Ultra (2021)
+Xiaomi 12 Pro (2022)
+Redmi Note 12 Pro+ (2023)
+Xiaomi Mi 10 Ultra (2020)
+Xiaomi 11T Pro (2021)
+Xiaomi Redmi K40 Pro (2021)
+Xiaomi Mi 9 (2019)
+Redmi Note 11 Pro+ (2022)
+Xiaomi Mi MIX 4 (2021)
+
+
+Oppo Find X6 Pro (2023)
+Oppo Reno 10 Pro+ (2023)
+Oppo Find X5 Pro (2022)
+Oppo Reno 8 Pro (2022)
+Oppo F19 Pro+ (2021)
+Oppo Find X3 Pro (2021)
+Oppo Reno 7 Pro (2021)
+Oppo A54 5G (2021)
+Oppo F17 Pro (2020)
+
+
+Vivo X90 Pro+ (2023)
+Vivo V27 Pro (2023)
+Vivo X80 Pro (2022)
+Vivo V23 Pro (2022)
+Vivo X70 Pro+ (2021)
+Vivo V21 5G (2021)
+Vivo Y73 (2021)
+Vivo V15 Pro (2019)
+Vivo V17 Pro (2019)
+Vivo X60 Pro (2021)
+
+
+Realme GT 2 Pro (2022)
+Realme 11 Pro+ (2023)
+Realme GT 3 (2023)
+Realme 10 Pro+ (2022)
+Realme GT Master Edition (2021)
+Realme X7 Pro (2020)
+Realme Narzo 60 Pro (2023)
+Realme 9 Pro+ (2022)
+Realme 8 Pro (2021)
+Realme X50 Pro 5G (2020)
+
+
+[
+  {
+    "model": "Realme GT 2 Pro",
+    "release_year": 2022,
+    "processor": "Snapdragon 8 Gen 1",
+    "display": "6.7-inch AMOLED, 120Hz",
+    "camera": {
+      "rear": "50MP (wide), 50MP (ultrawide), 3MP (microscope)",
+      "front": "32MP"
+    },
+    "battery": "5000mAh, 65W fast charging",
+    "ram": "8GB/12GB",
+    "storage": "128GB/256GB",
+    "os": "Android 12, Realme UI 3.0",
+    "description": "Realme GT 2 Pro offers flagship-level performance with a premium design and powerful camera system, including a unique microscope camera. It's equipped with the latest Snapdragon 8 Gen 1 processor and a high refresh rate AMOLED display, making it a great choice for users seeking power and photography capabilities.",
+    "image_url": "https://images.unsplash.com/photo-1642768240133-d24b49047b29"
+  },
+  {
+    "model": "Realme 11 Pro+",
+    "release_year": 2023,
+    "processor": "Dimensity 7050",
+    "display": "6.7-inch AMOLED, 120Hz",
+    "camera": {
+      "rear": "200MP (wide), 8MP (ultrawide), 2MP (depth)",
+      "front": "32MP"
+    },
+    "battery": "5000mAh, 100W fast charging",
+    "ram": "8GB/12GB",
+    "storage": "256GB/512GB",
+    "os": "Android 13, Realme UI 4.0",
+    "description": "Realme 11 Pro+ brings an incredible 200MP camera system, paired with fast charging and a great AMOLED display. With the Dimensity 7050 chipset, it offers good overall performance for users who need a powerful phone for photography and gaming.",
+    "image_url": "https://images.unsplash.com/photo-1642768240133-d24b49047b29"
+  },
+  {
+    "model": "Realme GT 3",
+    "release_year": 2023,
+    "processor": "Snapdragon 8+ Gen 1",
+    "display": "6.74-inch AMOLED, 144Hz",
+    "camera": {
+      "rear": "50MP (wide), 8MP (ultrawide), 2MP (macro)",
+      "front": "16MP"
+    },
+    "battery": "4600mAh, 240W fast charging",
+    "ram": "8GB/12GB/16GB",
+    "storage": "128GB/256GB",
+    "os": "Android 13, Realme UI 4.0",
+    "description": "Realme GT 3 offers an insane 240W fast charging and high-end Snapdragon 8+ Gen 1 chipset. The phone is designed for those who want the ultimate performance, fast charging, and smooth gaming experience.",
+    "image_url": "https://images.unsplash.com/photo-1642768240133-d24b49047b29"
+  },
+  {
+    "model": "Realme 10 Pro+",
+    "release_year": 2022,
+    "processor": "Dimensity 1080",
+    "display": "6.7-inch AMOLED, 120Hz",
+    "camera": {
+      "rear": "108MP (wide), 8MP (ultrawide), 2MP (macro)",
+      "front": "16MP"
+    },
+    "battery": "5000mAh, 67W fast charging",
+    "ram": "6GB/8GB/12GB",
+    "storage": "128GB/256GB",
+    "os": "Android 13, Realme UI 4.0",
+    "description": "Realme 10 Pro+ focuses on great camera performance with a 108MP lens and fast charging. Powered by the Dimensity 1080, it balances performance and photography for an affordable price.",
+    "image_url": "https://images.unsplash.com/photo-1642768240133-d24b49047b29"
+  },
+  {
+    "model": "Realme GT Master Edition",
+    "release_year": 2021,
+    "processor": "Snapdragon 778G",
+    "display": "6.43-inch Super AMOLED, 120Hz",
+    "camera": {
+      "rear": "64MP (wide), 8MP (ultrawide), 2MP (macro)",
+      "front": "32MP"
+    },
+    "battery": "4300mAh, 65W fast charging",
+    "ram": "6GB/8GB/12GB",
+    "storage": "128GB/256GB",
+    "os": "Android 11, Realme UI 2.0",
+    "description": "The Realme GT Master Edition offers a stylish design with solid performance. Equipped with Snapdragon 778G, it delivers great performance in daily tasks and gaming, making it a well-rounded mid-range phone.",
+    "image_url": "https://images.unsplash.com/photo-1642768240133-d24b49047b29"
+  },
+  {
+    "model": "Realme X7 Pro",
+    "release_year": 2020,
+    "processor": "Dimensity 1000+",
+    "display": "6.55-inch Super AMOLED, 120Hz",
+    "camera": {
+      "rear": "64MP (wide), 8MP (ultrawide), 2MP (depth)",
+      "front": "32MP"
+    },
+    "battery": "4500mAh, 65W fast charging",
+    "ram": "6GB/8GB/12GB",
+    "storage": "128GB/256GB",
+    "os": "Android 10, Realme UI 1.0",
+    "description": "Realme X7 Pro is powered by the Dimensity 1000+ processor and offers a solid 120Hz AMOLED display. The fast charging and strong camera setup make it a competitive option for mid-range users.",
+    "image_url": "https://images.unsplash.com/photo-1642768240133-d24b49047b29"
+  },
+  {
+    "model": "Realme Narzo 60 Pro",
+    "release_year": 2023,
+    "processor": "Dimensity 7050",
+    "display": "6.7-inch AMOLED, 120Hz",
+    "camera": {
+      "rear": "64MP (wide), 8MP (ultrawide), 2MP (depth)",
+      "front": "16MP"
+    },
+    "battery": "5000mAh, 33W fast charging",
+    "ram": "6GB/8GB",
+    "storage": "128GB/256GB",
+    "os": "Android 13, Realme UI 4.0",
+    "description": "The Realme Narzo 60 Pro offers a large AMOLED screen, decent performance with Dimensity 7050, and fast charging. It's a great budget-friendly phone for users who prioritize battery life and display quality.",
+    "image_url": "https://images.unsplash.com/photo-1642768240133-d24b49047b29"
+  },
+  {
+    "model": "Realme 9 Pro+",
+    "release_year": 2022,
+    "processor": "Dimensity 920",
+    "display": "6.4-inch Super AMOLED, 90Hz",
+    "camera": {
+      "rear": "50MP (wide), 8MP (ultrawide), 2MP (macro)",
+      "front": "16MP"
+    },
+    "battery": "4500mAh, 60W fast charging",
+    "ram": "6GB/8GB",
+    "storage": "128GB/256GB",
+    "os": "Android 12, Realme UI 3.0",
+    "description": "Realme 9 Pro+ brings good performance with a 50MP camera, AMOLED display, and efficient Dimensity 920 processor. It's a solid option for those looking for a reliable mid-range phone with a premium feel.",
+    "image_url": "https://images.unsplash.com/photo-1642768240133-d24b49047b29"
+  },
+  {
+    "model": "Realme 8 Pro",
+    "release_year": 2021,
+    "processor": "Snapdragon 720G",
+    "display": "6.4-inch Super AMOLED, 60Hz",
+    "camera": {
+      "rear": "108MP (wide), 8MP (ultrawide), 2MP (macro)",
+      "front": "16MP"
+    },
+    "battery": "4500mAh, 50W fast charging",
+    "ram": "6GB/8GB",
+    "storage": "128GB",
+    "os": "Android 11, Realme UI 2.0",
+    "description": "Realme 8 Pro is known for its 108MP camera, solid performance with Snapdragon 720G, and sleek design. It's a great value-for-money option for users seeking a reliable camera and good battery life.",
+    "image_url": "https://images.unsplash.com/photo-1642768240133-d24b49047b29"
+  },
+  {
+    "model": "Realme X50 Pro 5G",
+    "release_year": 2020,
+    "processor": "Snapdragon 865",
+    "display": "6.44-inch Super AMOLED, 90Hz",
+    "camera": {
+      "rear": "64MP (wide), 12MP (telephoto), 8MP (ultrawide), 2MP (depth)",
+      "front": "32MP"
+    },
+    "battery": "4200mAh, 65W fast charging",
+    "ram": "6GB/8GB/12GB",
+    "storage": "128GB/256GB",
+    "os": "Android 10, Realme UI 1.0",
+    "description": "The Realme X50 Pro 5G is an early 5G phone offering flagship specs like Snapdragon 865 and fast 65W charging. It’s a good choice for users wanting 5G support and flagship-level performance.",
+    "image_url": "https://images.unsplash.com/photo-1642768240133-d24b49047b29"
+  }
+]
+
+
+
+"use client"
+
+import { iPhones } from '@/app/database/Apple'
+import Image from 'next/image'
+import { CiMobile3 } from "react-icons/ci";
+
+import React, { useState } from 'react'
+import { LuTableProperties } from 'react-icons/lu';
+import { MdNewReleases, MdSdStorage, MdVideoCameraBack, MdVideoCameraFront } from 'react-icons/md';
+import { GiProcessor } from 'react-icons/gi';
+import { FaBatteryFull } from 'react-icons/fa6';
+import { SiGoogledisplayandvideo360 } from 'react-icons/si';
+import { LiaPhoenixFramework } from 'react-icons/lia';
+import { IoIosFlash } from 'react-icons/io';
+
+
+
+const page =  ({params}:any) => {
+  const [imageindex, setimageindex] = useState(0)
+   
+    
+ const  {models}= params
+ const getarry=  iPhones.filter((val)=>val.id==models
+)
+
+
+
+    
+ 
+    
+    
+    
+  return (
+   
+    
+    
+<div className='bg-black text-white  py-10 px-10 '  >
+ <div className=' py-10 px-10 flex justify-evenly bg-black text-white  '>
+  <div>
+   
+   
+  <Image
+   src={getarry?.[0]?.imagegellery?.[imageindex]||""}
+   alt='thisisamge'
+   height={300}
+
+   width={200}
+   className='  h-[400px] w-[700px] bg-cover bg-no-repeat object-cover p-2 bg-center  '
+  />
+  <div className='flex mt-10 '>
+  <Image
+   src={getarry?.[0]?.imagegellery?.[0]||""}
+   alt='thisisamge'
+   height={100}
+   width={120}
+   className='border border-white rounded-2xl cursor-pointer active:border-black'
+   onClick={()=>{setimageindex(0)}}
+  />
+   <Image
+   src={getarry?.[0]?.imagegellery?.[1]||""}
+   alt='thisisamge'
+   height={80}
+   width={120}
+     className='border border-white rounded-2xl cursor-pointer active:border-black'
+     onClick={()=>{setimageindex(1)}}
+  /> <Image
+  src={getarry?.[0]?.imagegellery?.[2]||""}
+  alt='thisisamge'
+  height={80}
+  width={120}
+    className='border border-white rounded-2xl cursor-pointer active:border-black'
+    onClick={()=>{setimageindex(2)}}
+ />
+  </div>
+  </div>
+  <div className='center'>
+    
+        <h1 className="text-4xl text-red-600 font-bold   mb-10 uppercase tracking-tighter">{getarry?.[0]?.model}</h1>
+    <h1 className='uppercase text-2xl font-light tracking-[-0.1rem] flex   py-3 hover: text-red-600'>  <span className='flex
+     font-bold mx-3 gap-2'><CiMobile3/> modelname: </span><span>  {getarry?.[0]?.model}</span></h1>
+     {/* <h1 className='uppercase text-2xl font-[400] tracking-[-0.1rem] flex   pt-3'><span className='flex  font-bold mx-3 gap-2'><LuTableProperties /> properties: </span>  {getarry?.[0]?.description}</h1> 
+ */}
+
+    <h1 className='uppercase text-2xl font-light tracking-[-0.1rem] flex   pt-3  hover: text-red-600'> <span className='flex font-bold  mx-3 gap-2'><MdNewReleases /> realease-year:  </span>      {getarry?.[0]?.release_year}</h1>
+    <h1 className='uppercase text-2xl font-[400] tracking-[-0.1rem] flex    pt-3 hover: text-red-600'> <span className='flex   font-bold mx-3 gap-2'><GiProcessor />Processor </span>  {getarry?.[0]?.processor}</h1>
+    {/* <h1>{getarry?.[0]?.price}</h1> */}
+    <h1 className='uppercase text-2xl font-light tracking-[-0.1rem] flex   pt-3 hover: text-red-600'> <span className='flex  mx-3 gap-2'><MdVideoCameraFront />Front cammra</span>   {getarry?.[0]?.camera?.front}</h1>
+    <h1 className='uppercase text-2xl font-light tracking-[-0.1rem] flex    pt-3 hover: text-red-600'> <span className='flex font-bold mx-3 gap-2'><MdVideoCameraBack />Reare Camra</span>    {getarry?.[0]?.camera?.rear}</h1>
+    <h1  className='uppercase text-2xl font-light tracking-[-0.1rem] flex   pt-3 hover: text-red-600 ' ><span className='flex   font-bold mx-3 gap-2'><MdSdStorage />Storage</span> {getarry?.[0]?.storage}</h1>
+    <h1 className='uppercase text-2xl font-light tracking-[-0.1rem] flex   pt-3 hover: text-red-600'><span className='flex   font-bold mx-3 gap-2'><FaBatteryFull />Battery</span> {getarry?.[0]?.battery}</h1>
+    <h1 className='uppercase text-2xl font-light tracking-[-0.1rem] flex   pt-3 hover: text-red-600'><span className='flex   font-bold mx-3 gap-2'><SiGoogledisplayandvideo360 />Display</span> {getarry?.[0]?.display}</h1>
+    <h1 className='uppercase text-2xl font-light tracking-[-0.1rem] flex    pt-3 hover: text-red-600'><span className='flex   font-bold mx-3 gap-2'> <LiaPhoenixFramework />Ram</span> {getarry?.[0]?.ram}</h1>
+    <h1 className='uppercase text-2xl font-light tracking-[-0.1rem] flex   pt-3 hover: text-red-600'><span className='flex  font-bold mx-3 gap-2'><IoIosFlash />OS</span> {getarry?.[0]?.os}</h1>
+    {/* <h1>{getarry?.[0]?.price}</h1> */}
+    
+    
+    
+    
+  </div>
+  
+  
+</div> 
+<div className=''>
+<div> <h1 className='uppercase text-7xl tracking-tighter'>description:</h1>
+  <h1 className='uppercase  font-light border-white p-3 border tracking-[-0.1rem] flex   pt-3 hover: text-red-600'><span className='flex  font-bold mx-3 gap-2'><LuTableProperties /> properties: </span>  {getarry?.[0]?.description}</h1> 
+ </div>
+ <div className="flex">
+  <div className='mt-10'>
+    <h1 className='text-2xl font-bold tracking-tighter hover: text-red-600'>public Review</h1>
+    <div className='1 w-[600px] bg-white h-4  '>
+      
+      
+<div className='h-1 w-[80%] bg-red-600 m-1'></div>
+    </div>
+    <div className='1'></div>
+    <div className='1'></div>
+    <div className='1'></div>
+    <div className='1'></div>
+   
+   
+  </div>
+  <div></div>
+
+ </div>
+
+</div>
+</div>
+
+    
+    
+  )
+}
+
+export default page
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
