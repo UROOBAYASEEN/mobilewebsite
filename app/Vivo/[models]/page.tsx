@@ -20,7 +20,7 @@ import { vivodata } from '@/app/database/vivo';
 
 
 const page =  ({params}:any) => {
-  const [imageindex, setimageindex] = useState(0)
+  const [imageindex, SetImageindex] = useState(0)
    
     
  const  {models}= params
@@ -76,20 +76,20 @@ if (adding) {
   
    
    className='  h-[80px] w-[80px]border border-white rounded-2xl cursor-pointer active:border-black'
-   onClick={()=>{setimageindex(0)}}
+   onClick={()=>{SetImageindex(0)}}
   ></img>
    <img
    src={getarry?.[0]?.imagegellery?.[1]||""}
   
    
      className='  h-[80px] w-[80px] border border-white rounded-2xl cursor-pointer active:border-black'
-     onClick={()=>{setimageindex(1)}}
+     onClick={()=>{SetImageindex(1)}}
   ></img> <img
   src={getarry?.[0]?.imagegellery?.[2]||""}
  
   
     className='  h-[80px] w-[80px] border border-white rounded-2xl cursor-pointer active:border-black'
-    onClick={()=>{setimageindex(2)}}
+    onClick={()=>{SetImageindex(2)}}
  ></img>
   </div>
   </div>

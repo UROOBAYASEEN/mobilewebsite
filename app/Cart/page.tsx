@@ -8,28 +8,50 @@ import Image from 'next/image'
   const page=()=>{
     
     
-    const [data, setdata] = useState<any[]>([])
+    const [data, SetData] = useState<any[]>([])
 
       
 
-   
+    useEffect(() => {
+      const cartKey = "CartData"; // Define the key as a constant
+      const cartData = localStorage.getItem(cartKey);
+      if (cartData) {
+          try {
+              SetData(JSON.parse(cartData)); // Use consistent naming for setters
+          } catch (error) {
+              console.error(`Error parsing ${cartKey}:`, error);
+          }
+      }
+  }, []);
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+        const cartdata = localStorage.getItem("CartData");
+        if (cartdata) {
+            try {
+                SetData(JSON.parse(cartdata));
+            } catch (error) {
+                console.error("Error parsing CartData:", error);
+            }
+        }
+    }
+}, []);
 
     
-useEffect(() => {
-  const cartdata = localStorage.getItem("CartData");
-  if (cartdata) {
-    try {
-      setdata(JSON.parse(cartdata));
-    } catch (error) {
-      console.error("Error parsing CartData:", error);
-    }
-  }
-}, []);
+// useEffect(() => {
+//   const cartdata = localStorage.getItem("CartData");
+//   if (cartdata) {
+//     try {
+//       SetData(JSON.parse(cartdata));
+//     } catch (error) {
+//       console.error("Error parsing CartData:", error);
+//     }
+//   }
+// }, []);
 
 
 const deleteItem = (id: number) => {
   const updatedData = data.filter((item) => item.id !== id); 
-  setdata(updatedData); // Update state
+  SetData(updatedData); // Update state
   localStorage.setItem("CartData", JSON.stringify(updatedData)); 
 };
 

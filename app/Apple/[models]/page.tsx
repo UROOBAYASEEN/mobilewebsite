@@ -1,11 +1,8 @@
 
-
-
 "use client"
-
 import { iPhones } from '@/app/database/Apple'
 import { CiMobile3 } from "react-icons/ci";
-import React, {  useContext, useState } from 'react'
+import React, {  useState } from 'react'
 import { MdNewReleases, MdSdStorage, MdVideoCameraBack, MdVideoCameraFront } from 'react-icons/md';
 import { GiProcessor } from 'react-icons/gi';
 import { FaBatteryFull } from 'react-icons/fa6';
@@ -13,14 +10,8 @@ import { SiGoogledisplayandvideo360 } from 'react-icons/si';
 import { LiaPhoenixFramework } from 'react-icons/lia';
 import { IoIosFlash } from 'react-icons/io';
 
-
 const page =  ({params}:any) => {
-  const [imageindex, setimageindex] = useState(0)
-
-  
-
-  
-    
+  const [imageindex, SetImageindex] = useState(0) 
  const  {models}= params
  const getarry=  iPhones.filter((val)=>val.id==models)
 
@@ -69,18 +60,18 @@ if (adding) {
   <img
    src={getarry?.[0]?.imagegellery?.[0]||""}
    className='border h-[80px] w-[80px] border-white rounded-2xl cursor-pointer active:border-black'
-   onClick={()=>{setimageindex(0)}}></img>
+   onClick={()=>{SetImageindex(0)}}></img>
    <img
    src={getarry?.[0]?.imagegellery?.[1]||""}
    
      className='border h-[80px] w-[80px] border-white rounded-2xl cursor-pointer active:border-black'
-     onClick={()=>{setimageindex(1)}}
+     onClick={()=>{SetImageindex(1)}}
   ></img> <img
   src={getarry?.[0]?.imagegellery?.[2]||""}
   
   
     className='border h-[80px] w-[80px] border-white rounded-2xl cursor-pointer active:border-black'
-    onClick={()=>{setimageindex(2)}}></img>
+    onClick={()=>{SetImageindex(2)}}></img>
   </div>
   </div>
   <div className='center bg-white  py-10 px-2'>
