@@ -21,8 +21,8 @@ import { reallmedata } from '@/app/database/reallme';
 
 
 
-const page =  ({params}:any) => {
-  const [imageindex, SetImageindex] = useState(0)
+const Page =  ({params}:any) => {
+  const [Imageindex, SetImageindex] = useState(0)
    
     
  const  {models}= params
@@ -69,7 +69,7 @@ if (adding) {
    
    
   <img
-   src={getarry?.[0]?.imagegellery?.[imageindex]||""}
+   src={getarry?.[0]?.imagegellery?.[Imageindex]||""}
    className='   h-[400px] w-[700px] bg-cover bg-no-repeat object-cover p-2 bg-center  '
   ></img>
   <div className='flex mt-10 gap-3 '>
@@ -133,7 +133,7 @@ if (adding) {
   )
 }
 
-export default page
+export default Page
 
 
 

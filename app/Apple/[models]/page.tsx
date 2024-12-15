@@ -11,7 +11,7 @@ import { LiaPhoenixFramework } from 'react-icons/lia';
 import { IoIosFlash } from 'react-icons/io';
 
 const page =  ({params}:any) => {
-  const [imageindex, SetImageindex] = useState(0) 
+  const [Imageindex, SetImageindex] = useState(0) 
  const  {models}= params
  const getarry=  iPhones.filter((val)=>val.id==models)
 
@@ -51,7 +51,7 @@ if (adding) {
   <div className='border border-red-700 bg-red-700 rounded-2xl my-10'> 
    
    
-  <img  src={getarry?.[0]?.imagegellery?.[imageindex]||""}
+  <img  src={getarry?.[0]?.imagegellery?.[Imageindex]||""}
   
   
    className='  h-[400px] w-[100%] bg-cover bg-no-repeat object-cover p-2 bg-center  '>

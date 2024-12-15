@@ -1,23 +1,24 @@
 "use client"
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
-import { useContext } from 'react'
+
+
 import Image from 'next/image'
 
 
-  const page=()=>{
+  const Page=()=>{
     
     
-    const [data, SetData] = useState<any[]>([])
+    const [Data, SetData] = useState<any[]>([])
 
       
 
     useEffect(() => {
-      const cartKey = "CartData"; // Define the key as a constant
+      const cartKey = "CartData";
       const cartData = localStorage.getItem(cartKey);
       if (cartData) {
           try {
-              SetData(JSON.parse(cartData)); // Use consistent naming for setters
+              SetData(JSON.parse(cartData)); 
           } catch (error) {
               console.error(`Error parsing ${cartKey}:`, error);
           }
@@ -50,7 +51,7 @@ import Image from 'next/image'
 
 
 const deleteItem = (id: number) => {
-  const updatedData = data.filter((item) => item.id !== id); 
+  const updatedData = Data.filter((item) => item.id !== id); 
   SetData(updatedData); // Update state
   localStorage.setItem("CartData", JSON.stringify(updatedData)); 
 };
@@ -60,7 +61,7 @@ const deleteItem = (id: number) => {
     
     return<div>
       {
-        data.length===0 && <div className='flex text-center justify-center items-center'
+        Data.length===0 && <div className='flex text-center justify-center items-center'
         >
           <div className='mt-24 h-screen'>
             <h1 className='bg-center texy-2xl text-black uppercase font-bold'>cart is empty</h1>
@@ -70,10 +71,10 @@ const deleteItem = (id: number) => {
         </div>
       }
       {
-        data.length>0 &&<div className='mt-32 my-10'>
+        Data.length>0 &&<div className='mt-32 my-10'>
         {
-          data.map((val)=>
-            <div className='border border-black py-4 md:flex justify-between px-10 gap-4 '>
+          Data.map((val,ind)=>
+            <div key={ind} className='border border-black py-4 md:flex justify-between px-10 gap-4 '>
               <div>
                 <Image
                 src={val.imageurl}
@@ -120,4 +121,4 @@ const deleteItem = (id: number) => {
 
 
   }
-export default page
+export default Page
