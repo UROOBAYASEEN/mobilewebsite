@@ -10,7 +10,7 @@ import { SiGoogledisplayandvideo360 } from 'react-icons/si';
 import { LiaPhoenixFramework } from 'react-icons/lia';
 import { IoIosFlash } from 'react-icons/io';
 
-const page =  ({params}:any) => {
+const Page =  ({params}:any) => {
   const [Imageindex, SetImageindex] = useState(0) 
  const  {models}= params
  const getarry=  iPhones.filter((val)=>val.id==models)
@@ -112,7 +112,7 @@ if (adding) {
   )
 }
 
-export default page
+export default Page
 
 
 
