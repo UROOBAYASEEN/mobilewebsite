@@ -20,10 +20,7 @@ const page = () => {
 
  
  
-  if (!localStorage.getItem("CartData")) {
-    localStorage.setItem("CartData", JSON.stringify([]));
-  }
- 
+  
 
   
 
