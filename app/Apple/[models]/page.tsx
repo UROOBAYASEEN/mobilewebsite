@@ -1,4 +1,7 @@
 
+
+
+
 "use client"
 import { iPhones } from '@/app/database/Apple'
 import { CiMobile3 } from "react-icons/ci";
@@ -111,6 +114,8 @@ if (adding) {
     
   )
 }
+
+
 
 export default Page
 
